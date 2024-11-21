@@ -1,0 +1,200 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #6ec1e4, #3b7b8b); /* Pastel Blue Gradient */
+    color: #fff;
+}
+
+header {
+    background: linear-gradient(to right, #2b6a80, #79c0d2); /* Dark to Light Blue */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: all 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #4c9cbe;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero-image {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hero-img {
+    width: 50%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.info-table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.info-table th, .info-table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.info-table th {
+    background-color: #4c9cbe;
+    color: white;
+}
+
+.struktur-organisasi {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.org-table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.org-table th, .org-table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.org-table th {
+    background-color: #4c9cbe;
+    color: white;
+}
+
+/* About Us Section */
+#about-us {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.company-info {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.company-info td {
+    padding: 15px;
+}
+
+.company-info strong {
+    font-size: 18px;
+}
+
+/* Partner Section */
+#company-partners {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.partner-img {
+    width: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-image {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.folder-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.gallery-img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #4c9cbe;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+.center-text {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+}
